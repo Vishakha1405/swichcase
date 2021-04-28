@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class switch1 {
+
+    public static void main(String[] args) {
+      
+        Scanner input = new Scanner(System.in);
+       
+          System.out.print("Enter your ID: ");
+        String ID = input.next(); 
+        switch(ID){  
+       
+           
+            case "0111786":
+            System.out.println("Your batch is 24");  
+            case "0111234":
+            System.out.println("Your batch is 20");  
+
+            case "0111923":
+            System.out.println("Your batch is 37");  
+       
+       
+       }
+          input.close();
+
+    }
+
+}
